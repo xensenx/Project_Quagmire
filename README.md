@@ -10,5 +10,3 @@ to be more clear its a literary Project.
 
 Heres the full detail.
 
-Mushoku Tensei Jobless Reincarnation is a japanese light novel series written by refujin na magonote, 
-
