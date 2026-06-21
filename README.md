@@ -1,4 +1,7 @@
-<center>Project Quagmire</center>
+<div align="center">
+# Project Quagmire
+</div>
+
 Project Quagmire is the name of a project that I'm slowly working on for about 1.5 years now, 
 
 
