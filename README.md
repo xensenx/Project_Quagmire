@@ -1,6 +1,6 @@
-<div align="center">
-# Project Quagmire
-</div>
+<h1 align="center">
+  Project Quagmire
+</h1>
 
 Project Quagmire is the name of a project that I'm slowly working on for about 1.5 years now, 
 
