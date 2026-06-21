@@ -1,5 +1,5 @@
 <h1 align="center">
-  Project Quagmire
+  Project_Quagmire
 </h1>
 
 Project Quagmire is the name of a project that I'm slowly working on for about 1.5 years now, 
