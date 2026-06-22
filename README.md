@@ -11,6 +11,8 @@ Project Quagmire is a long-term effort aimed at producing an in-depth literary a
 
 What began as a personal curiosity eventually evolved into a multi-year project involving research, archival work, documentation, and analysis. The repository serves as a record of that ongoing journey.
 
+Click [here](https://xensenx.github.io/Project_Quagmire/) to read more about Project Quagmire!
+
 ### Copyright Notice
 
 This repository contains original analysis and documentation created as part of Project Quagmire.
