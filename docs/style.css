@@ -5,18 +5,18 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: #363636; /* Dark ash theme */
-    color: #f5f5dc; /* Whitish beige text */
-    font-family: Georgia, "Times New Roman", Times, serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    overflow: hidden;
-    /* This transition handles the final fade-out before the PDF opens */
-    transition: opacity 0.5s ease-in-out; 
+body { 
+  background-color: #363636; /* Dark ash theme */ 
+  color: #f5f5dc; /* Whitish beige text */ 
+  font-family: Georgia, serif; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+  overflow: hidden; /* This transition handles the final fade-out before the PDF opens */ 
+  transition: opacity 0.5s ease-in-out; 
 }
+
 
 #splash-screen {
     text-align: center;
