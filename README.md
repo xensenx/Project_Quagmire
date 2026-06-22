@@ -15,7 +15,7 @@ Click [here](https://xensenx.github.io/Project_Quagmire/) or Scan the QR below t
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/pdf24-qr-code.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/pdf24-qr-code.svg">
-  <img alt="Pendent" src="./assets/Pendent_Finalized_black.svg" width="250">
+  <img alt="Pendent" src="./assets/pdf24-qr-code.svg" width="250">
   <h1>Project_Quagmire</h1>
 </picture>
 
