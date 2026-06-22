@@ -1,5 +1,9 @@
 <h1 align="center">
-  Project_Quagmire
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/Pendent_Finalized_white.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/Pendent_Finalized_black.svg">
+  <img alt="Pendent" src="./assets/Pendent_Finalized_black.svg" width="300">
+  </picture>
 </h1>
 
 Project Quagmire is the name of a project that I'm slowly working on for about 1.5 years now, 
