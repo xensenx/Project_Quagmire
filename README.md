@@ -1,11 +1,11 @@
-<div align="center">
+<h1 align="center">
   <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/Pendent_Finalized_white.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/Pendent_Finalized_black.svg">
-  <img alt="Pendent" src="./assets/Pendent_Finalized_black.svg" width="220">
+  <img alt="Pendent" src="./assets/Pendent_Finalized_black.svg" width="250">
   <h1>Project_Quagmire</h1>
   </picture>
-</div>
+</h1>
 
 Project Quagmire is the name of a project that I'm slowly working on for about 1.5 years now, 
 
