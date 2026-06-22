@@ -1,14 +1,33 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const body = document.body;
+    const titleEl = document.getElementById("main-title");
+    const titleText = titleEl.textContent;
+    
+    // 1. Reset title to empty so it can type out dynamically
+    titleEl.textContent = ""; 
+    
+    let charIndex = 0;
+    // Calculates exact speed per letter to fit perfectly inside a 2-second (2000ms) window
+    const typingSpeed = 2000 / titleText.length; 
 
-    // Trigger the fade-out effect at 3.5 seconds
-    setTimeout(() => {
-        body.classList.add("fade-out");
-    }, 3500);
+    function typeWriter() {
+        if (charIndex < titleText.length) {
+            titleEl.textContent += titleText.charAt(charIndex);
+            charIndex++;
+            setTimeout(typeWriter, typingSpeed);
+        }
+    }
 
-    // Redirect to the PDF exactly at 4 seconds
+    // Start the typewriter sequence immediately on load
+    typeWriter();
+
+    // 2. Timeline Orchestration (7 Seconds Total)
+    // At 6.5 seconds: Trigger the overall screen fade-out (takes 0.5s)
     setTimeout(() => {
-        // .replace() is used here so the splash screen doesn't clutter the user's "Back" button history
+        document.body.classList.add("fade-out");
+    }, 6500);
+
+    // At 7.0 seconds: Seamlessly transition directly to the PDF
+    setTimeout(() => {
         window.location.replace("Project_Quagmire_Doc.pdf");
-    }, 4000);
+    }, 7000);
 });

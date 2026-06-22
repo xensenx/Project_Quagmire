@@ -5,18 +5,17 @@
     box-sizing: border-box;
 }
 
-body { 
-  background-color: #363636; /* Dark ash theme */ 
-  color: #f5f5dc; /* Whitish beige text */ 
-  font-family: Georgia, serif; 
-  display: flex; 
-  justify-content: center; 
-  align-items: center; 
-  height: 100vh; 
-  overflow: hidden; /* This transition handles the final fade-out before the PDF opens */ 
-  transition: opacity 0.5s ease-in-out; 
+body {
+    background-color: #363636; /* Dark ash background */
+    color: #f5f5dc; /* Whitish beige text */
+    font-family: Georgia, serif; /* Enforced Georgia uniform font */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    transition: opacity 0.5s ease-in-out; /* Smooth 0.5s final fade-out */
 }
-
 
 #splash-screen {
     text-align: center;
@@ -27,27 +26,24 @@ body {
     font-weight: normal;
     letter-spacing: 2px;
     margin-bottom: 15px;
+    min-height: 5.5rem; /* Prevents layout layout jumps while typing */
 }
 
 #subtitle {
     font-size: 1.5rem;
     font-style: italic;
-    opacity: 0; /* Starts invisible */
-    /* Fades in over 1 second and stays visible */
-    animation: fadeIn 1s ease-in forwards; 
+    opacity: 0; /* Starts completely invisible */
+    /* Waits 2s for the title to finish typing, then takes 2s to fade in */
+    animation: fadeIn 2s ease-in 2s forwards; 
 }
 
-/* Keyframes for the subtitle fade-in */
+/* Keyframe for the subtitle fade-in */
 @keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+    0% { opacity: 0; }
+    100% { opacity: 1; }
 }
 
-/* Class added by JavaScript to fade the entire screen out */
+/* Triggered by JS right before redirecting */
 .fade-out {
     opacity: 0 !important;
 }
