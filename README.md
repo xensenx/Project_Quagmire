@@ -3,6 +3,7 @@
   <source media="(prefers-color-scheme: dark)" srcset="./assets/Pendent_Finalized_white.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/Pendent_Finalized_black.svg">
   <img alt="Pendent" src="./assets/Pendent_Finalized_black.svg" width="220">
+  <h1>Project_Quagmire</h1>
   </picture>
   <h1>Project_Quagmire</h1>
 </h1>
