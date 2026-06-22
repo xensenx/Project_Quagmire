@@ -11,7 +11,13 @@ Project Quagmire is a long-term effort aimed at producing an in-depth literary a
 
 What began as a personal curiosity eventually evolved into a multi-year project involving research, archival work, documentation, and analysis. The repository serves as a record of that ongoing journey.
 
-Click [here](https://xensenx.github.io/Project_Quagmire/) to read more about Project Quagmire!
+Click [here](https://xensenx.github.io/Project_Quagmire/) or Scan the QR below to read more about Project Quagmire!
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/pdf24-qr-code.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/pdf24-qr-code.svg">
+  <img alt="Pendent" src="./assets/Pendent_Finalized_black.svg" width="250">
+  <h1>Project_Quagmire</h1>
+</picture>
 
 ### Copyright Notice
 
