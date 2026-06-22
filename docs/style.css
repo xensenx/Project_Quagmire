@@ -31,7 +31,7 @@ body {
 
 #subtitle {
     font-size: 1.5rem;
-    font-style: italic;
+    font-style: none;
     opacity: 0; /* Starts completely invisible */
     /* Waits 2s for the title to finish typing, then takes 2s to fade in */
     animation: fadeIn 2s ease-in 2s forwards; 
